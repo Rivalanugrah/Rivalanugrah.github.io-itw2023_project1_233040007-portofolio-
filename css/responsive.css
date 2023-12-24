@@ -1,0 +1,1322 @@
+@media screen and (max-width: 1024px) {
+  /* start navigasi */
+  .navigation2 {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    background-color: #000c36;
+    box-shadow: 0px 0px 20px 10px #005eff;
+    z-index: 999;
+  }
+
+  .logo {
+    font-family: 'NovaSquare';
+    padding-right: 90px;
+    color: rgb(153, 0, 255);
+    font-size: 25px;
+  }
+
+  .navigation > li {
+    display: flex;
+    margin-left: 5px;
+    list-style-type: none;
+  }
+
+  .navigation > li > a {
+    display: flex;
+    color: #ffffff;
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.5;
+    position: relative;
+  }
+
+  .navigation > li > a > i {
+    display: flex;
+    position: relative;
+    letter-spacing: 3px;
+  }
+
+  .navigation > li > a > i:hover {
+    color: rgb(153, 0, 255);
+    transition: 0.3s ease-in-out;
+  }
+
+  .navigation > li > a > i:after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    bottom: -10px;
+    left: 50%;
+    position: absolute;
+    background-color: rgb(153, 0, 255);
+    transition: 0.3s;
+  }
+
+  .navigation > li > a > :hover:after {
+    width: 100%;
+    left: 0%;
+  }
+
+  .navigation > li > img {
+    justify-content: end;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+  }
+
+  .navigation > li > img:hover {
+    width: 45px;
+    height: 45px;
+    border-radius: 60px;
+    transition: 0.5s ease-in-out;
+  }
+  /* end navigasi */
+
+  .home {
+    width: 1024;
+    justify-content: space-between;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .content {
+    max-width: 1024px;
+    padding-left: 100px;
+  }
+
+  .content i {
+    margin: 3px;
+    color: rgb(153, 0, 255);
+  }
+
+  .content i:hover {
+    color: #f7f8f9;
+  }
+
+  .content h3 {
+    font-size: 27px;
+    font-weight: 700;
+    color: rgb(235, 235, 255);
+  }
+
+  .content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: -3px 0;
+    color: white;
+  }
+
+  span {
+    color: rgb(157, 0, 255);
+    text-shadow: 0 0 5px rgb(174, 0, 255);
+  }
+
+  .content p {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(183, 183, 183);
+    text-decoration: none;
+    margin: 40px 15px 30px 0;
+  }
+
+  .img-container {
+    display: flex;
+    margin-right: 100px;
+    margin-top: 20px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 10px #005cfc;
+  }
+
+  .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: inset;
+  }
+
+  /* start about me */
+
+  .aboutme .kotak {
+    display: flex;
+    width: 1100px;
+    height: 380px;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(21, 21, 225, 0.374);
+    border-radius: 10px;
+    max-width: 1024px;
+  }
+
+  .aboutme .kotak img {
+    margin-left: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px #005cfc;
+  }
+
+  img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: inset;
+  }
+
+  .aboutme .kotak h1 {
+    display: flex;
+    margin-top: 150px;
+    margin-left: -150px;
+    margin-bottom: 450px;
+    font-weight: bolder;
+    font-family: 'Nova Square', sans-serif;
+    letter-spacing: 2px;
+    color: #ffffff;
+  }
+
+  .kotak p {
+    display: flex;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-right: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+  }
+  /* end about me */
+
+  /* start skill */
+  .skill {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .skill .kotakskill {
+    background-color: #001858;
+    margin-top: 70px;
+    border-radius: 10px;
+    display: flex;
+    height: 400px;
+    width: 800px;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .skill h1 {
+    display: flex;
+    margin-left: -600px;
+    margin-right: -600px;
+    font-weight: bolder;
+    font-family: 'Nova Square', sans-serif;
+    color: aliceblue;
+    letter-spacing: 3px;
+    margin-top: 30px;
+  }
+
+  .kotak1 img {
+    display: flex;
+    align-items: center;
+    margin-top: 170px;
+    width: 95px;
+    height: 95px;
+  }
+
+  .kotak1 h3 {
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .kotak2 img {
+    align-items: center;
+    margin-top: 180px;
+    width: 75px;
+    height: 75px;
+  }
+
+  .kotak2 h3 {
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5px;
+  }
+  /* end skills */
+
+  /* start project */
+  .project {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 50);
+    margin-bottom: 100px;
+  }
+
+  .ppp {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+  }
+
+  .thumbs {
+    background-color: rgb(6, 6, 63);
+    margin-top: 40px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project h1 {
+    font-family: 'Nova Square', sans-serif;
+    letter-spacing: 3px;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    color: white;
+  }
+
+  .project1 a img {
+    border-radius: 10px;
+  }
+
+  .teks {
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+  }
+
+  .ppp a {
+    text-decoration: none;
+  }
+
+  .ppp a img:hover {
+    margin-top: -20px;
+    transition: 0.5s ease-in-out;
+  }
+
+  .thumbs .project2 {
+    display: flex;
+  }
+
+  .project2 a img {
+    display: flex;
+    border-radius: 10px;
+  }
+
+  .project2 a h2 {
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+  }
+
+  .thumbs .project3 {
+    display: flex;
+  }
+
+  .project3 a img {
+    display: flex;
+    border-radius: 10px;
+  }
+
+  .project3 a h2 {
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+  }
+
+  /* end project */
+
+  /* start contact me */
+  .contact {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0316368a;
+    font-family: 'Nova Square', sans-serif;
+  }
+
+  .contact form h2 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: -20px;
+  }
+
+  .contact form {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 00px;
+  }
+
+  form .input-box {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+  .input-box .input-field {
+    width: 100%;
+  }
+
+  .field .item {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid #0ef;
+    outline: none;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #ededed;
+    margin: 12px 0;
+  }
+
+  .field .item::placeholder {
+    color: rgb(255, 255, 255, 0.3);
+  }
+
+  form .textarea-field .item {
+    resize: none;
+    height: 150px;
+  }
+
+  form button {
+    padding: 12px 32px;
+    background: #0ef;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10 #0ef;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+  }
+
+  form button:hover {
+    box-shadow: none;
+  }
+
+  /* contact me */
+}
+
+@media screen and (max-width: 768px) {
+  /* start navigasi */
+  .navigation2 {
+    display: none;
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #000c36;
+    margin-right: 100px;
+    box-shadow: 0px 0px 20px 10px #005eff;
+    z-index: 999;
+  }
+
+  .logo {
+    font-family: 'NovaSquare';
+    padding-right: 10px;
+    color: rgb(153, 0, 255);
+    font-size: 20px;
+  }
+
+  .navigation > li {
+    display: flex;
+
+    list-style-type: none;
+  }
+
+  .navigation > li > a {
+    display: flex;
+    color: #ffffff;
+    font-size: 10px;
+    text-decoration: none;
+    transition: 0.5;
+    position: relative;
+  }
+
+  .navigation > li > a > i {
+    display: flex;
+    position: relative;
+    letter-spacing: 3px;
+  }
+
+  .navigation > li > a > i:hover {
+    color: rgb(153, 0, 255);
+    transition: 0.3s ease-in-out;
+  }
+
+  .navigation > li > a > i:after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    bottom: -10px;
+    left: 50%;
+    position: absolute;
+    background-color: rgb(153, 0, 255);
+    transition: 0.3s;
+  }
+
+  .navigation > li > a > :hover:after {
+    width: 100%;
+    left: 0%;
+  }
+
+  .navigation > li > img {
+    justify-content: end;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+
+  .navigation > li > img:hover {
+    width: 45px;
+    height: 45px;
+    border-radius: 60px;
+    transition: 0.5s ease-in-out;
+  }
+
+  /* end navigasi */
+
+  /* start home */
+
+  .home {
+    width: 768;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .content {
+    max-width: 768px;
+    padding-left: 100px;
+  }
+
+  .content i {
+    color: rgb(153, 0, 255);
+    margin-right: 70px;
+    margin-left: -60px;
+  }
+
+  .content i:hover {
+    color: #f7f8f9;
+  }
+
+  .content h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(235, 235, 255);
+    margin-left: -60px;
+  }
+
+  .content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: -60px;
+    color: white;
+  }
+
+  span {
+    color: rgb(157, 0, 255);
+    text-shadow: 0 0 5px rgb(174, 0, 255);
+  }
+
+  .content p {
+    font-weight: 900;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    color: rgb(183, 183, 183);
+    text-decoration: none;
+    margin-left: -60px;
+  }
+
+  .img-container {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    top: 25%;
+    width: 500px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 10px #005cfc;
+  }
+
+  .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: inset;
+  }
+
+  /* end home */
+
+  /* start about me */
+
+  .aboutme .kotak {
+    flex-direction: column;
+    display: flex;
+    width: 600px;
+    height: 85vh;
+    margin-top: 70px;
+    margin-right: 90px;
+    margin-left: 100px;
+    background-color: rgba(21, 21, 225, 0.374);
+    border-radius: 10px;
+    max-width: 768px;
+  }
+
+  .aboutme .kotak img {
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-right: 50px;
+    box-shadow: 0px 0px 10px 10px #005cfc;
+  }
+
+  img {
+    width: 130px;
+    height: 170px;
+    object-fit: cover;
+    box-shadow: inset;
+  }
+
+  .aboutme .kotak h1 {
+    display: flex;
+    margin-top: -240px;
+    margin-right: 50px;
+    font-weight: bolder;
+    font-family: 'Nova Square', sans-serif;
+    letter-spacing: 2px;
+    color: #ffffff;
+  }
+
+  .kotak p {
+    display: flex;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-top: -160px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+  }
+  /* end about me */
+
+  /* start skill */
+  .skill {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .skill .kotakskill {
+    background-color: #001858;
+    border-radius: 10px;
+    display: flex;
+    width: 600px;
+    height: 350px;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .skill h1 {
+    display: flex;
+    margin-left: -350px;
+    margin-right: -350px;
+    font-weight: bolder;
+    font-family: 'Nova Square', sans-serif;
+    color: aliceblue;
+    letter-spacing: 3px;
+    margin-top: 30px;
+  }
+
+  .kotak1 img {
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .kotak1 h3 {
+    font-weight: 800;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .kotak2 img {
+    align-items: center;
+    margin-top: 138px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .kotak2 h3 {
+    font-weight: 800;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -1px;
+  }
+  /* end skills */
+
+  /* start project */
+  .project {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 50);
+  }
+
+  .ppp {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+  }
+
+  .thumbs {
+    margin-top: 50px;
+    background-color: rgb(6, 6, 63);
+    width: 1000px;
+    height: 500px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project h1 {
+    font-family: 'Nova Square', sans-serif;
+    letter-spacing: 3px;
+    justify-content: center;
+    display: flex;
+    margin: 70px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .project1 a img {
+    border-radius: 10px;
+  }
+
+  .teks {
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .ppp a {
+    text-decoration: none;
+  }
+
+  .ppp a img:hover {
+    margin-top: -15px;
+    transition: 0.5s ease-in-out;
+  }
+
+  .thumbs .project2 {
+    display: flex;
+  }
+
+  .project2 a img {
+    display: flex;
+    border-radius: 10px;
+  }
+
+  .project2 a h2 {
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .thumbs .project3 {
+    display: flex;
+  }
+
+  .project3 a img {
+    display: flex;
+    border-radius: 10px;
+  }
+
+  .project3 a h2 {
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  /* end project */
+
+  /* start contact me */
+  .contact {
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0316368a;
+    font-family: 'Nova Square', sans-serif;
+    margin-top: 130px;
+  }
+
+  .contact form h2 {
+    flex-direction: column;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 250px;
+  }
+
+  .contact form {
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin-bottom: 400px;
+  }
+
+  form .input-box {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+  .input-box .input-field {
+    width: 100%;
+  }
+
+  .field .item {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid #0ef;
+    outline: none;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #ededed;
+    margin: 12px 0;
+  }
+
+  .field .item::placeholder {
+    color: rgb(255, 255, 255, 0.3);
+  }
+
+  form .textarea-field .item {
+    resize: none;
+    height: 100px;
+  }
+
+  form button {
+    padding: 12px 12px;
+    background: #0ef;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10 #0ef;
+    font-size: 13px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+  }
+
+  form button:hover {
+    box-shadow: none;
+  }
+
+  /* contact me */
+}
+
+@media screen and (max-width: 480px) {
+  /* navigation */
+  .navigation {
+    width: 480px;
+    height: 50px;
+  }
+
+  .logo {
+    font-family: 'NovaSquare';
+    padding-right: 10px;
+    color: rgb(153, 0, 255);
+    font-size: 20px;
+  }
+
+  /* navigation2 */
+
+  .navigation2 {
+    display: flex;
+    position: fixed;
+    background-color: #a0a6be;
+    border-radius: 20px;
+    height: 50px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 120px;
+    gap: 30px;
+    z-index: 99;
+    list-style-type: none;
+  }
+
+  .navigation2 li a i:hover {
+    color: rgb(255, 255, 255);
+  }
+
+  /* navigation2 */
+
+  .navigation > li > a {
+    display: none;
+    color: #ffffff;
+    font-size: 10px;
+    text-decoration: none;
+    transition: 0.5;
+  }
+
+  .navigation > li > a > i {
+    display: flex;
+    position: relative;
+    letter-spacing: 1px;
+  }
+
+  .navigation > li > a > i:hover {
+    color: rgb(153, 0, 255);
+    transition: 0.3s ease-in-out;
+  }
+
+  .navigation > li > a > i:after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    bottom: -10px;
+    left: 50%;
+    position: absolute;
+    background-color: rgb(153, 0, 255);
+    transition: 0.3s;
+  }
+
+  .navigation > li > a > :hover:after {
+    width: 100%;
+    left: 0%;
+  }
+
+  .navigation > li > img {
+    display: flex;
+    justify-content: end;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin-right: 20px;
+  }
+
+  .navigation > li > img:hover {
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
+    transition: 0.5s ease-in-out;
+  }
+
+  /* navigation */
+
+  .home {
+    width: 400px;
+    flex-direction: column-reverse;
+    margin-top: -70px;
+    margin-right: 20px;
+    margin-left: 50px;
+  }
+
+  .img-container {
+    margin-top: 200px;
+    margin-left: 0px;
+    margin-right: 45px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 10px #005cfc;
+  }
+
+  .content {
+    max-width: 480px;
+    text-align: center;
+    margin-right: 70px;
+    margin-bottom: 60px;
+  }
+
+  .content i {
+    color: rgb(153, 0, 255);
+    margin-right: 40px;
+    margin-left: -30px;
+  }
+
+  .content i:hover {
+    color: #f7f8f9;
+  }
+
+  .content h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(235, 235, 255);
+  }
+
+  .content h1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+  }
+
+  span {
+    color: rgb(157, 0, 255);
+    text-shadow: 0 0 5px rgb(174, 0, 255);
+  }
+
+  .content p {
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(183, 183, 183);
+    text-decoration: none;
+  }
+  /* end home */
+
+  /* start about me */
+
+  .aboutme {
+    width: auto;
+    height: 90vh;
+    align-items: center;
+  }
+
+  .aboutme .kotak {
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    background-color: rgba(21, 21, 225, 0.374);
+    border-radius: 10px;
+    margin-top: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .aboutme .kotak img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px #005cfc;
+    margin-top: 100px;
+  }
+
+  img {
+    width: 130px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: inset;
+  }
+
+  .aboutme .kotak h1 {
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Nova Square', sans-serif;
+    letter-spacing: 3px;
+    color: #ffffff;
+    margin-top: -230px;
+    margin-left: -100px;
+  }
+
+  .kotak p {
+    display: flex;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 40px;
+    margin-top: -200px;
+    color: #ffffff;
+  }
+  /* end about me */
+
+  /* start skill */
+  .skill {
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .skill .kotakskill {
+    background-color: #001858;
+    border-radius: 10px;
+    display: flex;
+    width: 400px;
+    height: 450px;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 170px;
+  }
+
+  .skill h1 {
+    display: flex;
+    margin-left: -250px;
+    margin-right: -250px;
+    font-weight: bolder;
+    font-family: 'Nova Square', sans-serif;
+    color: aliceblue;
+    letter-spacing: 3px;
+    margin-top: 40px;
+  }
+
+  .kotak1 img {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .kotak1 h3 {
+    font-weight: 800;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .kotak2 img {
+    align-items: center;
+    margin-top: 209px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .kotak2 h3 {
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -1px;
+  }
+  /* end skills */
+
+  /* start project */
+  .project {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 50);
+    margin-top: 90px;
+  }
+
+  .ppp {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+  }
+
+  .thumbs {
+    background-color: rgb(6, 6, 63);
+    width: 1000px;
+    height: 500px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project h1 {
+    font-family: 'Nova Square', sans-serif;
+    letter-spacing: 3px;
+    justify-content: center;
+    margin: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .project1 a img {
+    border-radius: 10px;
+  }
+
+  .teks {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .ppp a {
+    text-decoration: none;
+  }
+
+  .ppp a img:hover {
+    margin-top: -15px;
+    transition: 0.5s ease-in-out;
+  }
+
+  .thumbs .project2 {
+    display: flex;
+  }
+
+  .project2 a img {
+    display: flex;
+    border-radius: 10px;
+  }
+
+  .project2 a h2 {
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .thumbs .project3 {
+    display: flex;
+  }
+
+  .project3 a img {
+    display: flex;
+    border-radius: 10px;
+  }
+
+  .project3 a h2 {
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  /* end project */
+
+  /* start contact me */
+  .contact {
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0316368a;
+    font-family: 'Nova Square', sans-serif;
+    margin-top: 150px;
+  }
+
+  .contact form h2 {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 100px;
+  }
+
+  .contact form {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+
+  form .input-box {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+  .input-box .input-field {
+    width: 70%;
+    margin-left: 60px;
+  }
+
+  .field .item {
+    width: 100%;
+    background: transparent;
+    border: 2px solid #0ef;
+    outline: none;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #ededed;
+    margin: 12px 0;
+  }
+
+  .field .item::placeholder {
+    color: rgb(255, 255, 255, 0.3);
+  }
+
+  form .textarea-field .item {
+    resize: none;
+    height: 110px;
+    width: 350px;
+    margin-left: 0px;
+  }
+
+  form button {
+    padding: 12px 12px;
+    background: #0ef;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10 #0ef;
+    font-size: 13px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+  }
+
+  form button:hover {
+    box-shadow: none;
+  }
+
+  /* contact me */
+}
