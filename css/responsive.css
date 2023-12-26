@@ -599,11 +599,11 @@
   .aboutme .kotak {
     flex-direction: column;
     display: flex;
-    width: 600px;
+    width: 500px;
     height: 85vh;
     margin-top: 70px;
-    margin-right: 90px;
-    margin-left: 100px;
+    margin-right: 100px;
+    margin-left: 140px;
     background-color: rgba(21, 21, 225, 0.374);
     border-radius: 10px;
     max-width: 768px;
@@ -661,7 +661,6 @@
     height: 350px;
     justify-content: space-around;
     text-align: center;
-    margin-top: 100px;
   }
 
   .skill h1 {
@@ -881,7 +880,6 @@
   /* contact me */
 }
 
-
 @media screen and (max-width: 480px) {
   /* start navigation2 */
 
@@ -891,7 +889,7 @@
     background-color: #a0a6be;
     border-radius: 20px;
     height: 50px;
-    width: 390px;
+    width: 100%;
     justify-content: center;
     align-items: center;
     margin-top: 60px;
@@ -902,6 +900,7 @@
 
   .navigation2 li a i:hover {
     color: rgb(255, 255, 255);
+    transition: 0.5s ease-in-out;
   }
 
   /* end navigation2 */
@@ -911,7 +910,7 @@
   }
 
   .navigation {
-    width: 393px;
+    width: 100%;
   }
 
   /* start home */
@@ -923,55 +922,56 @@
   .img-container{
     height: 250px;
     width: 250px;
-    margin-top: 140px;
+    margin-top: 150px;
     border-radius: 50%;
   }
 
   .content {
-    margin-bottom: 30px;
+    margin-bottom: 120px;
   }
   /* end home */
 
   /* start about me */
   .aboutme .kotak {
     flex-direction: column;
-    width: 300px;
-    height: 620px;
+    display: flex;
+    width: 400px;
+    margin-right: -100px;
+    margin-left: 40px;
+    height: 85vh;
     margin-top: 150px;
-    margin-left: 30px;
     background-color: rgba(21, 21, 225, 0.374);
     border-radius: 10px;
-    max-width: 768px;
+    
   }
 
   .aboutme .kotak img {
     border-radius: 10px;
-    margin-top: 90px;
-    margin-right: 50px;
+    margin-top: 120px;
     box-shadow: 0px 0px 10px 10px #005cfc;
   }
 
   img {
-    width: 130px;
-    height: 170px;
+    width: 110px;
+    height: 150px;
     object-fit: cover;
     box-shadow: inset;
   }
 
   .aboutme .kotak h1 {
-    margin-top: -250px;
-    margin-left: 50px;
+    display: flex;
     font-weight: bolder;
     font-family: 'Nova Square', sans-serif;
     letter-spacing: 2px;
     color: #ffffff;
+    font-size: 30px;
+    margin-left: 10px;
   }
 
   .kotak p {
     display: flex;
-    margin-top: -200px;
-    margin-left: 30px;
     font-weight: bold;
+    margin-top: -180px;
     font-family: 'Courier New', Courier, monospace;
     color: #ffffff;
   }
@@ -979,28 +979,28 @@
 
   /* start skills */
   .skill {
-    width: 300px;
+    width: 100%;
     height: 100vh;
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-left: 30px;
-    margin-top: -100px;
   }
 
   .skill .kotakskill {
+    background-color: #001858;
     border-radius: 10px;
     display: flex;
-    width: 600px;
+    width: 400px;
     height: 350px;
-    
+    justify-content: space-around;
     text-align: center;
+    margin-top: 50px;
   }
 
   .skill h1 {
     display: flex;
-    margin-left: -350px;
-    margin-right: -350px;
+    margin-left: -200px;
+    margin-right: -200px;
     font-weight: bolder;
     font-family: 'Nova Square', sans-serif;
     color: aliceblue;
@@ -1012,7 +1012,6 @@
     display: flex;
     align-items: center;
     margin-top: 130px;
-    margin-right: 200px;
     width: 80px;
     height: 80px;
   }
@@ -1021,12 +1020,10 @@
     font-weight: 800;
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: -200px;
   }
 
   .kotak2 img {
     align-items: center;
-    margin-left: 200px;
     margin-top: 138px;
     width: 70px;
     height: 70px;
@@ -1037,7 +1034,6 @@
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: -1px;
-    margin-right: -200px;
   }
   /* end skills */
 
@@ -1075,6 +1071,7 @@
     justify-content: center;
     display: flex;
     margin: 70px;
+    margin-top: 110px;
     font-size: 30px;
     font-weight: 600;
     color: white;
@@ -1158,7 +1155,7 @@
     font-size: 35px;
     color: white;
     margin-bottom: 50px;
-    margin-top: 250px;
+    margin-top: 200px;
   }
 
   .contact form {
@@ -1180,7 +1177,7 @@
   }
 
   .field .item {
-    width: 50%;
+    width: 80%;
     padding: 10px;
     background: transparent;
     border: 2px solid #0ef;
@@ -1223,3 +1220,166 @@
   /* end contactme */
  
 }
+
+@media screen and (max-width: 380px) {
+
+  /* start home */
+  .home {
+    max-width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .img-container{
+    height: 200px;
+    width: 200px;
+    margin-top: 150px;
+    border-radius: 50%;
+  }
+
+  .content {
+    margin-bottom: 190px;
+    font-size: 12px;
+  }
+  /* end home */
+
+   /* start about me */
+   .aboutme .kotak {
+    flex-direction: column;
+    height: 85vh;
+    width: 100%;
+    margin-right: 500px;
+  }
+
+  .aboutme .kotak img {
+    border-radius: 10px;
+    margin-top: 120px;
+    box-shadow: 0px 0px 10px 10px #005cfc;
+  }
+
+  img {
+    width: 90px;
+    height: 130px;
+    object-fit: cover;
+    box-shadow: inset;
+  }
+
+  .aboutme .kotak h1 {
+    display: flex;
+    font-weight: bolder;
+    font-family: 'Nova Square', sans-serif;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+  .kotak p {
+    display: flex;
+    font-weight: bold;
+    margin-top: -200px;
+    margin-left: 10px;
+    margin-right: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+  }
+  /* end aboutme */
+
+  /* start skills */
+  .skill {
+    width: 300px;
+    margin-left: 40px;
+  }
+
+  .kotakskill {
+    margin-bottom: 100px;
+  }
+  /* end skills */
+
+  /* start project */
+
+  /* end project */
+
+  /* start contact */
+
+  .contact {
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0316368a;
+    font-family: 'Nova Square', sans-serif;
+    margin-top: 500px;
+  }
+
+  .contact form h2 {
+    flex-direction: column;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 180px;
+  }
+
+  .contact form {
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin-bottom: 400px;
+  }
+
+  form .input-box {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+  .input-box .input-field {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .field .item {
+    width: 60%;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid #0ef;
+    outline: none;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #ededed;
+    margin: 12px 0;
+  }
+
+  .field .item::placeholder {
+    color: rgb(255, 255, 255, 0.3);
+  }
+
+  form .textarea-field .item {
+    resize: none;
+    height: 100px;
+  }
+
+  form button {
+    padding: 12px 12px;
+    background: #0ef;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10 #0ef;
+    font-size: 13px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+  }
+
+  form button:hover {
+    box-shadow: none;
+  }
+  /* end contactme */
+  }
+  

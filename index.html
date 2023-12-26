@@ -83,7 +83,7 @@
   </div>
 <!-- icon sosmed -->
       
-      <div class="img-container" \
+      <div class="img-container" 
       once: true,
       data-aos="fade-left"
       data-aos="fade-up"
@@ -97,6 +97,7 @@
          
     </section>
 <!-- end home -->
+
 
 <!-- start about me -->
 <div id="about me" class="aboutme">
@@ -120,8 +121,7 @@
    data-aos-duration="400"
    data-aos-easing="ease-in-out"
    data-aos-mirror="true"
-   data-aos-anchor-placement="top-center"
-    >
+   data-aos-anchor-placement="top-center">
     
     
 
@@ -160,8 +160,9 @@
      data-aos-delay="50"
      data-aos-duration="400"
      data-aos-easing="ease-in-out"
-     data-aos-mirror="true"
->
+     data-aos-mirror="true">
+
+
         <a href="project1/project1.html"><img src="project1/gambar_project_1/Thumbs project 1.png" alt="Thumbs project 1"><h2 class="teks">Project 1</h2></a>
      </div>
 
@@ -194,11 +195,12 @@
 <!-- end project -->
 
 
+
 <!-- start contact -->
 <div id="contact" class="contact">
  
 
- <form name="Rival-Anugrah-Contact-Form" action="#contact">
+ <form name="Rival-Anugrah-Contact-Form" id="Rival-Anugrah-Contact-Form" action="#contact">
   <h2> Contact Me!</h2>
   <div class="input-box">
   
@@ -224,15 +226,13 @@
    
   </div>
 
-  <button type="submit" class="btn" onclick="openPopup()">Send Message</button>
+  <button type="submit" onclick="alert('Succes!!!')">Send Message</button>
  
    <button type="reset">Resset</button> 
 
 </div>
 
-
-
-<!-- end cintact -->
+<!-- end contact -->
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
@@ -254,6 +254,8 @@
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message))
+      
+      document.getElementById("Rival-Anugrah-Contact-Form").reset();
   })
 </script>
 
