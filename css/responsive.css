@@ -1223,6 +1223,10 @@
 
 @media screen and (max-width: 380px) {
 
+  .navigation > li > img {
+    margin-right: 10px;
+  }
+
   /* start home */
   .home {
     max-width: 100%;
@@ -1237,7 +1241,7 @@
   }
 
   .content {
-    margin-bottom: 190px;
+    margin-bottom: 120px;
     font-size: 12px;
   }
   /* end home */
